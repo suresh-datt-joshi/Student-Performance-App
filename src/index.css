@@ -1,0 +1,87 @@
+:root {
+  --bg-color: #C5D6D8;
+  --text-color: #1c110a;
+  --card-bg: #D6F9DD;
+  --primary-color: #9b2915;
+  --primary-hover: #e9b44c;
+  --secondary-color: #50a2a7;
+  --border-color: #ccc;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 20px;
+  color: var(--text-color);
+}
+
+h1 {
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+  background-color: var(--card-bg);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+}
+
+button[type="submit"] {
+  padding: 12px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--primary-hover);
+  color: var(--text-color);
+}
+
+/* Student card styles */
+.student-card {
+  background-color: var(--card-bg);
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border-left: 6px solid var(--secondary-color);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.student-card h3 {
+  margin: 0 0 10px 0;
+  color: var(--text-color);
+}
+
+.student-card p {
+  margin: 5px 0;
+  font-size: 15px;
+}
