@@ -37,8 +37,8 @@ A simple and elegant React application to manage student records including name,
 
 1. **Clone the repository**:
    
-   git clone https://github.com/your-username/student-management-system.git<br />
-   cd student-management-system
+   git clone https://github.com/suresh-datt-joshi/Student-Performance-App.git<br />
+   cd Student-Performance-App
 
 2. **Install dependencies:**
    
